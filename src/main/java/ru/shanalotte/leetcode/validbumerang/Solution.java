@@ -1,4 +1,4 @@
-package ru.shanalotte.geometry.validbumerang;
+package ru.shanalotte.leetcode.validbumerang;
 
 import java.util.Objects;
 

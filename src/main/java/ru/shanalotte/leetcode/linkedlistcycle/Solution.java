@@ -1,6 +1,6 @@
-package ru.shanalotte.twopointers.linkedlistcycle;
+package ru.shanalotte.leetcode.linkedlistcycle;
 
-import ru.shanalotte.utils.ListNode;
+import ru.shanalotte.leetcode.utils.ListNode;
 
 public class Solution {
   public boolean hasCycle(ListNode head) {

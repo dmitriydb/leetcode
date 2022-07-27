@@ -1,4 +1,4 @@
-package ru.shanalotte.arrays.timeneededtobuytickets;
+package ru.shanalotte.leetcode.arrays.timeneededtobuytickets;
 
 class Solution {
   public int timeRequiredToBuy(int[] tickets, int k) {

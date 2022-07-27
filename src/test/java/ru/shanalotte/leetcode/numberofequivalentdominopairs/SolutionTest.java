@@ -1,4 +1,4 @@
-package ru.shanalotte.hashmap.numberofequivalentdominopairs;
+package ru.shanalotte.leetcode.numberofequivalentdominopairs;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;

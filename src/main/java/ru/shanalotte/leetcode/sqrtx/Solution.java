@@ -1,4 +1,4 @@
-package ru.shanalotte.binarysearch.sqrtx;
+package ru.shanalotte.leetcode.sqrtx;
 
 class Solution {
 

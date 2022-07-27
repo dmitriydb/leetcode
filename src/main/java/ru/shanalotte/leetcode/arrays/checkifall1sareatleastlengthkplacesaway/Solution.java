@@ -1,4 +1,4 @@
-package ru.shanalotte.arrays.checkifall1sareatleastlengthkplacesaway;
+package ru.shanalotte.leetcode.arrays.checkifall1sareatleastlengthkplacesaway;
 
 class Solution {
   public boolean kLengthApart(int[] nums, int k) {

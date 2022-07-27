@@ -1,4 +1,4 @@
-package ru.shanalotte.arrays.detectpatternoflengthmrepeatedkormoretimes.v2;
+package ru.shanalotte.leetcode.arrays.detectpatternoflengthmrepeatedkormoretimes.v2;
 
 class Solution {
   public boolean containsPattern(int[] arr, int m, int k) {

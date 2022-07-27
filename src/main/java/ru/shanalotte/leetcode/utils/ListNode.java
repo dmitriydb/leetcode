@@ -1,4 +1,4 @@
-package ru.shanalotte.utils;
+package ru.shanalotte.leetcode.utils;
 
 public class ListNode {
   public int val;

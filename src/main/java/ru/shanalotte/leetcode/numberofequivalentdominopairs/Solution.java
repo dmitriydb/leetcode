@@ -1,4 +1,4 @@
-package ru.shanalotte.hashmap.numberofequivalentdominopairs;
+package ru.shanalotte.leetcode.numberofequivalentdominopairs;
 
 import java.util.HashMap;
 import java.util.Map;
