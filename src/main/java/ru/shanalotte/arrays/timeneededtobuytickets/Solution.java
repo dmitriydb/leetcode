@@ -1,4 +1,4 @@
-package ru.shanalotte.timeneededtobuytickets;
+package ru.shanalotte.arrays.timeneededtobuytickets;
 
 class Solution {
   public int timeRequiredToBuy(int[] tickets, int k) {

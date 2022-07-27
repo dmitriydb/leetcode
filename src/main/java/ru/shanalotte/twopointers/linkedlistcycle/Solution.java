@@ -1,4 +1,4 @@
-package ru.shanalotte.linkedlistcycle;
+package ru.shanalotte.twopointers.linkedlistcycle;
 
 import ru.shanalotte.utils.ListNode;
 

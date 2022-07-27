@@ -1,4 +1,4 @@
-package ru.shanalotte.validbumerang;
+package ru.shanalotte.geometry.validbumerang;
 
 import java.util.Objects;
 
