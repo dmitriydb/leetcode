@@ -1,5 +1,8 @@
 package ru.shanalotte.leetcode.arrays.minmaxgame;
 
+import java.sql.Timestamp;
+import java.util.Date;
+
 class Solution {
   public int minMaxGame(int[] nums) {
     int op = -1;
@@ -19,5 +22,10 @@ class Solution {
       step = step * 2;
     }
     return nums[0];
+  }
+
+  public static void main(String[] args) {
+    Timestamp date = new Timestamp(1660289267000L);
+    System.out.println(date.toString());
   }
 }
