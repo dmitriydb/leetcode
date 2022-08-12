@@ -1,4 +1,4 @@
-package ru.shanalotte.leetcode.dynamicprogramming;
+package ru.shanalotte.leetcode.dynamicprogramming.besttimetobuystocks;
 
 class Solution {
   public int maxProfit(int[] prices) {
