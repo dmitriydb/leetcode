@@ -1,4 +1,4 @@
-package ru.shanalotte.leetcode.prefixsum;
+package ru.shanalotte.leetcode.prefixsum.rangesumqueryimmutable;
 
 public class NumArray {
 

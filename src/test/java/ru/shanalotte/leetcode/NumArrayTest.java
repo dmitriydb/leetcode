@@ -2,7 +2,7 @@ package ru.shanalotte.leetcode;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
-import ru.shanalotte.leetcode.prefixsum.NumArray;
+import ru.shanalotte.leetcode.prefixsum.rangesumqueryimmutable.NumArray;
 
 public class NumArrayTest {
 
