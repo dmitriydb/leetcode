@@ -1,4 +1,4 @@
-package ru.shanalotte.leetcode.misc;
+package ru.shanalotte.leetcode.misc.getnozerointegers;
 
 public class Solution {
   public int[] getNoZeroIntegers(int n) {
