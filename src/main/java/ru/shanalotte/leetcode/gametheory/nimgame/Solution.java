@@ -1,4 +1,4 @@
-package ru.shanalotte.leetcode.gametheory;
+package ru.shanalotte.leetcode.gametheory.nimgame;
 
 public class Solution {
 
