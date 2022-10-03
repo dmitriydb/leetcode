@@ -1,4 +1,4 @@
-package ru.shanalotte.leetcode.binarysearchtree.twosumivinputisabst;
+package ru.shanalotte.leetcode.binarytrees.twosumivinputisabst;
 
 import java.util.HashSet;
 import java.util.Set;
