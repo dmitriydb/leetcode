@@ -1,4 +1,4 @@
-package ru.shanalotte.leetcode.linkedlistcycle;
+package ru.shanalotte.leetcode.linkedlists.findcycle;
 
 import ru.shanalotte.leetcode.utils.ListNode;
 
