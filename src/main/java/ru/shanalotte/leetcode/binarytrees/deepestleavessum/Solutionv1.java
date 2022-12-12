@@ -3,7 +3,7 @@ package ru.shanalotte.leetcode.binarytrees.deepestleavessum;
 
 import ru.shanalotte.leetcode.utils.TreeNode;
 
-public class Solution {
+public class Solutionv1 {
 
   private int maxDepth = 0;
   private int sum = 0;
