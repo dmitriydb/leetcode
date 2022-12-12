@@ -5,46 +5,54 @@ import java.util.Set;
 
 public class Solution {
 
-  public String longestNiceSubstring(String s) {
-    Set<Character> processedCharacters = new HashSet<>();
-    Set<Character> unprocessedCharacters = new HashSet<>();
-    int max = 0;
-    String result = "";
-    int currentLength = s.length();
-    while (currentLength >= 2) {
-      unprocessedCharacters.clear();
-      processedCharacters.clear();
-      int p1 = 0;
-      int p2 = currentLength - 1;
-      for (int i = p1; i <= p2; i++) {
-        char c = s.charAt(i);
-        if (processedCharacters.contains(toLowercase(c))) {
-          continue;
-        } else {
-          if (isLowercase(c) && unprocessedCharacters.contains(toUppercase(c))) {
-            unprocessedCharacters.remove(toUppercase(c));
-            processedCharacters.add(c);
-          } else if (isUppercase(c) && unprocessedCharacters.contains(toLowercase(c))) {
-            unprocessedCharacters.remove(toLowercase(c));
-            processedCharacters.add(toLowercase(c));
-          } else {
-            unprocessedCharacters.add(c);
-          }
-        }
-
-        if (unprocessedCharacters.isEmpty()) {
-          int newLen = p2 - p1 + 1;
-          if (newLen > max) {
-            max = newLen;
-            result = s.substring(p1, i+1);
-          }
-        }
-      }
-      currentLength--;
-    }
-    return result;
+  public static void main(String[] args) {
+    System.out.println(new Solution().longestNiceSubstring("YazaAay"));
   }
 
+  public String longestNiceSubstring(String s) {
+    String result = "";
+    Set<Character> validCharacters = new HashSet<>();
+    Set<Character> unprocessedCharacters = new HashSet<>();
+
+    for (int i = 0; i < s.length(); i++) {
+      char c = s.charAt(i);
+      if (validCharacters.contains(toLowercase(c))) {
+        continue;
+      } else {
+        if (isLowercase(c) && unprocessedCharacters.contains(toUppercase(c))) {
+          unprocessedCharacters.remove(toUppercase(c));
+          validCharacters.add(c);
+        } else if (isUppercase(c) && unprocessedCharacters.contains(toLowercase(c))) {
+          unprocessedCharacters.remove(toLowercase(c));
+          validCharacters.add(toLowercase(c));
+        } else {
+          unprocessedCharacters.add(c);
+        }
+      }
+    }
+    unprocessedCharacters.clear();
+    Set<Character> processedCharacters = new HashSet<>();
+    for (int i = 0; i < s.length(); i++) {
+      char c = s.charAt(i);
+      if (validCharacters.contains(toLowercase(c))) {
+        continue;
+      } else {
+        if (isLowercase(c) && unprocessedCharacters.contains(toUppercase(c))) {
+          unprocessedCharacters.remove(toUppercase(c));
+          validCharacters.add(c);
+        } else if (isUppercase(c) && unprocessedCharacters.contains(toLowercase(c))) {
+          unprocessedCharacters.remove(toLowercase(c));
+          validCharacters.add(toLowercase(c));
+        } else {
+          unprocessedCharacters.add(c);
+        }
+      }
+    }
+
+
+
+    return result;
+  }
 
   private char toUppercase(char lowerCase) {
     return (char) (lowerCase - 32);
@@ -64,10 +72,6 @@ public class Solution {
 
   private boolean isLowercase(char character) {
     return character >= 'a' && character <= 'z';
-  }
-
-  public static void main(String[] args) {
-    System.out.println(new Solution().longestNiceSubstring("YazaAay"));
   }
 
 }
