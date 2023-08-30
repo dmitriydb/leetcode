@@ -1,4 +1,4 @@
-package ru.shanalotte.leetcode.matrix;
+package ru.shanalotte.leetcode.matrix.checkxmatrix;
 
 public class Solution {
   public boolean checkXMatrix(int[][] grid) {
