@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Problem1197 {
   public static void main(String[] args) {
-    int arr[] = {2, 3, 4, 4, 4, 4, 3, 2, 3, 4, 6, 6, 6, 6, 4, 3, 4, 6, 8, 8, 8, 8, 6, 4, 4, 6, 8, 8, 8, 8, 6, 4, 4, 6, 8, 8, 8, 8, 6, 4, 4, 6, 8, 8, 8, 8, 6, 4, 3, 4, 6, 6, 6, 6, 4, 3, 2, 3, 4, 4, 4, 4, 3, 2};
+    int[] arr = { 2, 3, 4, 4, 4, 4, 3, 2, 3, 4, 6, 6, 6, 6, 4, 3, 4, 6, 8, 8, 8, 8, 6, 4, 4, 6, 8, 8, 8, 8, 6, 4, 4, 6, 8, 8, 8, 8, 6, 4, 4, 6, 8, 8, 8, 8, 6, 4, 3, 4, 6, 6, 6, 6, 4, 3, 2, 3, 4, 4, 4, 4, 3, 2 };
     Scanner in = new Scanner(System.in);
     PrintWriter out = new PrintWriter(System.out);
     int n = in.nextInt();
@@ -19,5 +19,4 @@ public class Problem1197 {
     in.close();
     out.close();
   }
-
 }
